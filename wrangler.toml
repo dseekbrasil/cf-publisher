@@ -1,0 +1,7 @@
+name = "cf-publisher"
+compatibility_date = "2026-10-19"
+
+# Serve the repository's static files (index.html, articles/, etc.) directly.
+# No Worker script is needed for a static-only site.
+[assets]
+directory = "./"
